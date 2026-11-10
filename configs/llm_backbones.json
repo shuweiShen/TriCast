@@ -1,0 +1,39 @@
+{
+  "models": {
+    "gpt2-xl": {
+      "model_id": "openai-community/gpt2-xl",
+      "local_path": null,
+      "model_type": "gpt2", "hidden_size": 1600, "full_layers": 48
+    },
+    "gpt2-large": {
+      "model_id": "openai-community/gpt2-large",
+      "local_path": null,
+      "model_type": "gpt2", "hidden_size": 1280, "full_layers": 36
+    },
+    "gpt2": {
+      "model_id": "openai-community/gpt2",
+      "local_path": null,
+      "model_type": "gpt2", "hidden_size": 768, "full_layers": 12
+    },
+    "qwen2.5-0.5b": {
+      "model_id": "Qwen/Qwen2.5-0.5B",
+      "local_path": null,
+      "model_type": "qwen2", "hidden_size": 896, "full_layers": 24
+    },
+    "qwen2.5-1.5b": {
+      "model_id": "Qwen/Qwen2.5-1.5B",
+      "local_path": null,
+      "model_type": "qwen2", "hidden_size": 1536, "full_layers": 28
+    },
+    "qwen2.5-3b": {
+      "model_id": "Qwen/Qwen2.5-3B",
+      "local_path": null,
+      "model_type": "qwen2", "hidden_size": 2048, "full_layers": 36
+    },
+    "tinyllama-1.1b": {
+      "model_id": "TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T",
+      "local_path": null,
+      "model_type": "llama", "hidden_size": 2048, "full_layers": 22
+    }
+  }
+}

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Datasets and model weights (download separately)
+dataset/
+llm_weights/
+models--*/
+models--openai-community--gpt2/
+
+# Experiment outputs
+checkpoints/
+logs/
+.tricast_work/
+
+# Checkpoints and archives
+*.pt
+*.pth
+*.ckpt
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
